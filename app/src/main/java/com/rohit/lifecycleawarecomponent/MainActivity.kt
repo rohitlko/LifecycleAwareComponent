@@ -22,11 +22,10 @@ class MainActivity : AppCompatActivity() {
         Log.d("Rohit_Test", "MainActivity_onResume")
     }
 
-    override fun onPause(){
+    override fun onPause() {
         super.onPause()
         Log.d("Rohit_Test", "MainActivity_onPause")
     }
-
 
 
     override fun onDestroy() {
